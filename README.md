@@ -24,3 +24,6 @@
 |[TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)  | TensorFlow 白皮书 |
 |[MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems](https://www.cs.cmu.edu/~muli/file/mxnet-learning-sys.pdf)  | MXNet |
 |[On-the-fly Operation Batching in Dynamic Computation Graphs](https://papers.nips.cc/paper/6986-on-the-fly-operation-batching-in-dynamic-computation-graphs.pdf)  |  |
+|[TENSORFLOW EAGER: A MULTI-STAGE, PYTHON-EMBEDDED DSL FOR MACHINE LEARNING](https://www.sysml.cc/doc/2019/88.pdf)  | 2019-SysML |
+|[AUTOGRAPH: IMPERATIVE-STYLE CODING WITH GRAPH-BASED PERFORMANCE](https://www.sysml.cc/doc/2019/194.pdf)  | 2019-SysML |
+|[PYTORCH-BIGGRAPH: A LARGE-SCALE GRAPH EMBEDDING SYSTEM](https://www.sysml.cc/doc/2019/71.pdf)  | 2019-SysML |
