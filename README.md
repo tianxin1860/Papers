@@ -10,6 +10,7 @@
 |[BERT](https://arxiv.org/pdf/1810.04805.pdf)  |  基于双向 Transformer 预训练 Masked Language Model 作为 embedding encoder |2019-NAACL Best Paper|
 |[MT-DNN](https://arxiv.org/pdf/1901.11504.pdf)  |  基于 BERT 利用 multi-task finetune 提升 embedding 的领域泛化性 |2019-arXiv|
 |[Transformer-XL](https://arxiv.org/abs/1901.02860)  | 通过引入 segment-level recurrence 机制解决了标准 Transformer 最大长度受限的问题(文章强调 inference 阶段速度比标准 transformer 快 1800 倍)|2019-ACL|
+|[Universal Transformer](https://arxiv.org/abs/1807.03819)  | Todo| 2019-ICLR|
 |[GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Todo | 2019-OpenAI|
 |[XLM](https://arxiv.org/abs/1901.07291)| Todo | 2019-Facebook AI Research |
 
