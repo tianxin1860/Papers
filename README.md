@@ -13,6 +13,13 @@
 |[Universal Transformer](https://arxiv.org/abs/1807.03819)  | Todo| 2019-ICLR|
 |[GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Todo | 2019-OpenAI|
 |[XLM](https://arxiv.org/abs/1901.07291)| Todo | 2019-Facebook AI Research |
+|[MASS](https://arxiv.org/abs/1905.02450)| Todo | 2019-ICML |
+|[UNILM](https://arxiv.org/abs/1905.03197)| Todo | 2019-arXiv |
+
+### Performance Optimization about Deep Learning
+| Paper | 核心思想 | 备注 |
+| --- | --- |--- |
+|[Mixed Precision Training](https://arxiv.org/abs/1710.03740)| Todo | 2018-ICLR |
 
  ### Deep Learning System
 #### Course
