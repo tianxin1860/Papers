@@ -25,7 +25,8 @@
 #### Course
 | 课程名 | 备注 |
 | --- | --- |
-|[cs294](https://ucbrise.github.io/cs294-ai-sys-sp19/)  | |
+|[cs294 AI-Sys Spring 2019](https://ucbrise.github.io/cs294-ai-sys-sp19/)  | |
+|[CSE 599W: Systems for ML](http://dlsys.cs.washington.edu/schedule)  | |
 
 #### Paper
 | Paper | 备注 |
