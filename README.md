@@ -23,6 +23,7 @@
 |[Mixed Precision Training](https://arxiv.org/abs/1710.03740)|深度学习的计算过程对数值精度的要求并不高，使用 float 16 代替 float 32 进行计算，可以利用充分利用 TensorCore 硬件支持实现巨大加速，同时显著降低显存占用| 2018-ICLR |
 |[Ring All-Reduce](http://on-demand.gputechconf.com/gtc/2017/presentation/s7543-andrew-gibiansky-effectively-scakukbg-deep-learning-frameworks.pdf)| 基于 Ring All-Reduce 算法实现多 GPU 通信量不随着 GPU 卡数的增加而增加，同时避免 Pserver 模式中心化带来的通信瓶颈 | Tutorial|
 |[Hierarchical All-Reduce](http://learningsys.org/nips18/assets/papers/6CameraReadySubmissionlearnsys2018_blc.pdf)| Todo | 2018-ICLR |
+|[Tree All-Reduce](https://web.ece.ucdavis.edu/~ctcyang/pub/amaz-techreport2018.pdf)| Todo | 2018-AmozonTechReport |
 
  ### Deep Learning System
 #### Course
