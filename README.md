@@ -15,6 +15,7 @@
 |[XLM](https://arxiv.org/abs/1901.07291)| Todo | 2019-Facebook AI Research |
 |[MASS](https://arxiv.org/abs/1905.02450)| Todo | 2019-ICML |
 |[UNILM](https://arxiv.org/abs/1905.03197)| Todo | 2019-arXiv |
+|[Adaptive Attention Span in Transformers](https://arxiv.org/abs/1905.07799)| Todo | 2019-arXiv |
 
 
 ### Performance Optimization about Deep Learning
