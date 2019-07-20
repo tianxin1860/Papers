@@ -12,7 +12,7 @@
 |[Transformer-XL](https://arxiv.org/abs/1901.02860)  | 通过引入 segment-level recurrence 机制解决了标准 Transformer 最大长度受限的问题(文章强调evaluation 阶段速度比标准 transformer 快 1800 倍, 同时解决了在计算 attention score 的时候，如何融入 relative position 信息的问题)|2019-ACL|
 |[Universal Transformer](https://arxiv.org/abs/1807.03819)  | Todo| 2019-ICLR|
 |[GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Todo | 2019-OpenAI|
-|[XLM](https://arxiv.org/abs/1901.07291)| Todo | 2019-Facebook AI Research |
+|[XLM](https://arxiv.org/abs/1901.07291)| 通过引入平行语料训练 Translation LM, 使用多语数据训练 CLM、MLM、TLM 提升 XNLI 任务效果| 2019-Facebook AI Research |
 |[MASS](https://arxiv.org/abs/1905.02450)| Todo | 2019-ICML |
 |[UNILM](https://arxiv.org/abs/1905.03197)| Todo | 2019-arXiv |
 |[Adaptive Attention Span in Transformers](https://arxiv.org/abs/1905.07799)| Todo | 2019-arXiv |
