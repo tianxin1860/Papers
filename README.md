@@ -16,6 +16,7 @@
 |[MASS](https://arxiv.org/abs/1905.02450)| 在 encoder 端 Mask 句中连续片段, 在 decoder 端只输入在 encoder 端被 mask 掉的 token 来训练生成模型, 从而让 BERT 可以用于生成任务| 2019-ICML |
 |[UNILM](https://arxiv.org/abs/1905.03197)| Todo | 2019-arXiv |
 |[Adaptive Attention Span in Transformers](https://arxiv.org/abs/1905.07799)| Todo | 2019-arXiv |
+|[XLNet](https://arxiv.org/pdf/1906.08237.pdf)| Todo | 2019-arXiv |
 
 
 ### Performance Optimization about Deep Learning
