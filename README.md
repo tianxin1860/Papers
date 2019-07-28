@@ -27,6 +27,7 @@
 |[Hierarchical All-Reduce](http://learningsys.org/nips18/assets/papers/6CameraReadySubmissionlearnsys2018_blc.pdf)| Todo | 2018-ICLR |
 |[Tree All-Reduce](https://web.ece.ucdavis.edu/~ctcyang/pub/amaz-techreport2018.pdf)| Todo | 2018-AmozonTechReport |
 |[TICTAC](https://www.sysml.cc/doc/2019/199.pdf)| Todo | 2019-SysML |
+|[Quantized Neural Networks:Training Neural Networks with Low Precision Weights and Activations](https://arxiv.org/pdf/1609.07061.pdf)| Todo | 2016-arXiv |
 
  ### Deep Learning System
 #### Course
