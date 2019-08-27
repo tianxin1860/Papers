@@ -18,6 +18,7 @@
 |[Adaptive Attention Span in Transformers](https://arxiv.org/abs/1905.07799)| Todo | 2019-arXiv |
 |[XLNet](https://arxiv.org/pdf/1906.08237.pdf)| Todo | 2019-arXiv |
 |[Evaluation of sentence embeddings in downstream and linguistic probing tasks](https://arxiv.org/pdf/1806.06259.pdf)| 在[SentEval](https://github.com/facebookresearch/SentEval) 5 大类公开数据集上评估了 Word2Vec、Glove、FastText、p-mean、SkipThought、InferSent、ELMo、USE 这些模型产出的 sentence embedding 效果，在英文数据上对 sentence embedding 给出了一个较为扎实的基线, 技术选型时可作为参考 | 2018-arXiv |
+|[Universal Sentence Encoder](https://arxiv.org/pdf/1803.11175.pdf)| 基于 Transformer encoder 为网络基础，采用类似 skip-thought 这样的自监督任务、以及 SNLI 等监督任务为训练目标，产出通用的 Sentence Encoder; 核心论点: 通用性体现在 multi-task pretrain 上(这个pretrain 全是句子级别的任务，没有 token 级别的任务)| 2018-arXiv |
 
 
 ### Performance Optimization about Deep Learning
