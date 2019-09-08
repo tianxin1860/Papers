@@ -8,6 +8,7 @@
 |[ELMo](https://arxiv.org/pdf/1802.05365.pdf)  | 基于2层双向 LSTM 预训练 Langeage Model 作为 embedding encoder | 2018-NAACL Best Paper|
 |[GPT](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)  | 基于12层 Transformer Decoder 预训练 Langeage Model 作为 embedding encoder | 2018-OpenAI |
 |[BERT](https://arxiv.org/pdf/1810.04805.pdf)  |  基于双向 Transformer 预训练 Masked Language Model 作为 embedding encoder |2019-NAACL Best Paper|
+|[Span-BERT](https://arxiv.org/pdf/1907.10529.pdf) |核心思想是随机对文本片段进行 Mask, 而不是对 subword/word 进行 Mask, 与 ERENI 提出的思想没有太大区别; 文中提出的 Span Boundary Objective 效果并不是特别明显，略显牵强; 去掉 NSP 任务后显著提升 QA 任务效果是因为单句长度扩展到了 512，获得了更多的上下文信息|2019-arXiv Facebook AI Research|
 |[MT-DNN](https://arxiv.org/pdf/1901.11504.pdf)  |  基于 BERT 利用 multi-task finetune 提升 embedding 的领域泛化性 |2019-arXiv|
 |[Transformer-XL](https://arxiv.org/abs/1901.02860)  | 通过引入 segment-level recurrence 机制解决了标准 Transformer 最大长度受限的问题(文章强调evaluation 阶段速度比标准 transformer 快 1800 倍, 同时解决了在计算 attention score 的时候，如何融入 relative position 信息的问题)|2019-ACL|
 |[Universal Transformer](https://arxiv.org/abs/1807.03819)  | Todo| 2019-ICLR|
