@@ -26,7 +26,7 @@
 ### Loss
 | Paper | 核心思想 | 备注 |
 | --- | --- |--- |
-|[Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002)| 通过预测概率自适应调整 Loss 大小, 使得容易预测对的样本 loss 很小，可以动态解决样本不均衡问题和样本学习难易程度不同的问题，区分出随机负样本和强负样本对模型的 Loss 贡献 | 2018-ICLR |
+|[Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002)| 通过预测概率自适应调整 Loss 大小, 使得容易预测对的样本 loss 很小，可以动态解决样本不均衡问题和样本学习难易程度不同的问题，区分出随机负样本和强负样本对模型的 Loss 贡献 | 2017-ICCV |
 
 ### Performance Optimization about Deep Learning
 | Paper | 核心思想 | 备注 |
