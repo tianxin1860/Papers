@@ -21,6 +21,12 @@
 |[Universal Sentence Encoder](https://arxiv.org/pdf/1803.11175.pdf)| 基于 Transformer encoder 为网络基础，采用类似 skip-thought 这样的自监督任务、以及 SNLI 等监督任务为训练目标，产出通用的 Sentence Encoder; 核心论点: 通用性体现在 multi-task pretrain 上(这个pretrain 全是句子级别的任务，没有 token 级别的任务)| 2018-arXiv |
 
 
+### Optimizaiton
+### Loss
+| Paper | 核心思想 | 备注 |
+| --- | --- |--- |
+|[Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002)| 通过预测概率自适应调整 Loss 大小, 使得容易预测对的样本 loss 很小，可以动态解决样本不均衡问题和样本学习难易程度不同的问题，区分出随机负样本和强负样本对模型的 Loss 贡献 | 2018-ICLR |
+
 ### Performance Optimization about Deep Learning
 | Paper | 核心思想 | 备注 |
 | --- | --- |--- |
