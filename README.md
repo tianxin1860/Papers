@@ -38,6 +38,18 @@
 |[TICTAC](https://www.sysml.cc/doc/2019/199.pdf)| Todo | 2019-SysML |
 |[Quantized Neural Networks:Training Neural Networks with Low Precision Weights and Activations](https://arxiv.org/pdf/1609.07061.pdf)| Todo | 2016-arXiv |
 
+
+### Matching
+| Paper | 核心思想 | 备注 |
+| --- | --- |--- |
+|[DOMAIN-RELEVANT EMBEDDINGS FOR QUESTION SIMILARITY](https://openreview.net/pdf?id=Byxn9CNYPr)|如何在仅有少量监督数据的特定领域训练出好的 Similarity Model？基于 BERT 进行 Dobule finetune, First Fitune 时构造一些与 Target Domain  相关的 semi-supervised 任务或者 supervised 任务, Second Fintune 时在 target task 上训练即可 | 2020-ICLR Under review|
+
+### DISTILLING
+| Paper | 核心思想 | 备注 |
+| --- | --- |--- |
+|[TINYBERT](https://arxiv.org/pdf/1909.10351.pdf|| 2018-ICLR |
+
+
  ### Deep Learning System
 #### Course
 | 课程名 | 备注 |
