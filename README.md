@@ -47,7 +47,7 @@
 ### DISTILLING
 | Paper | 核心思想 | 备注 |
 | --- | --- |--- |
-|[TINYBERT](https://arxiv.org/pdf/1909.10351.pdf|| 2018-ICLR |
+|[TINYBERT](https://arxiv.org/pdf/1909.10351.pdf)|| 2019-Arxiv Huawei Noah’s Ark Lab 刘群|
 
 
  ### Deep Learning System
