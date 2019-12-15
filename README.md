@@ -48,7 +48,12 @@
 | Paper | 核心思想 | 备注 |
 | --- | --- |--- |
 |[TINYBERT](https://arxiv.org/pdf/1909.10351.pdf)|| 2019-Arxiv Huawei Noah’s Ark Lab 刘群|
+|[ALBERT](https://arxiv.org/pdf/1909.11942.pdf)|| 2019-Arxiv Google Zhenzhong Lan|
 
+### Quantization
+| Paper | 核心思想 | 备注 |
+| --- | --- |--- |
+|[Making Neural Nets Work With Low Precision](https://sahnimanas.github.io/post/quantization-in-tflite/)|||
 
  ### Deep Learning System
 #### Course
