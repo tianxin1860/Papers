@@ -54,6 +54,8 @@
 | Paper | 核心思想 | 备注 |
 | --- | --- |--- |
 |[Making Neural Nets Work With Low Precision](https://sahnimanas.github.io/post/quantization-in-tflite/)|||
+|[Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/pdf/1712.05877.pdf)|||
+|[TRAINING AND INFERENCE WITH INTEGERS IN DEEP NEURAL NETWORKS](https://arxiv.org/pdf/1802.04680.pdf)||2018-ICLR 清华|
 
  ### Deep Learning System
 #### Course
