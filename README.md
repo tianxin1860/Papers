@@ -22,6 +22,12 @@
 |[Universal Sentence Encoder](https://arxiv.org/pdf/1803.11175.pdf)| 基于 Transformer encoder 为网络基础，采用类似 skip-thought 这样的自监督任务、以及 SNLI 等监督任务为训练目标，产出通用的 Sentence Encoder; 核心论点: 通用性体现在 multi-task pretrain 上(这个pretrain 全是句子级别的任务，没有 token 级别的任务)| 2018-arXiv |
 
 
+### Optimizaiton
+### Loss
+| Paper | 核心思想 | 备注 |
+| --- | --- |--- |
+|[Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002)| 通过预测概率自适应调整 Loss 大小, 使得容易预测对的样本 loss 很小，可以动态解决样本不均衡问题和样本学习难易程度不同的问题，区分出随机负样本和强负样本对模型的 Loss 贡献 | 2017-ICCV |
+
 ### Performance Optimization about Deep Learning
 | Paper | 核心思想 | 备注 |
 | --- | --- |--- |
@@ -31,6 +37,25 @@
 |[Tree All-Reduce](https://web.ece.ucdavis.edu/~ctcyang/pub/amaz-techreport2018.pdf)| Todo | 2018-AmozonTechReport |
 |[TICTAC](https://www.sysml.cc/doc/2019/199.pdf)| Todo | 2019-SysML |
 |[Quantized Neural Networks:Training Neural Networks with Low Precision Weights and Activations](https://arxiv.org/pdf/1609.07061.pdf)| Todo | 2016-arXiv |
+
+
+### Matching
+| Paper | 核心思想 | 备注 |
+| --- | --- |--- |
+|[DOMAIN-RELEVANT EMBEDDINGS FOR QUESTION SIMILARITY](https://openreview.net/pdf?id=Byxn9CNYPr)|如何在仅有少量监督数据的特定领域训练出好的 Similarity Model？基于 BERT 进行 Dobule finetune, First Fitune 时构造一些与 Target Domain  相关的 semi-supervised 任务或者 supervised 任务, Second Fintune 时在 target task 上训练即可 | 2020-ICLR Under review|
+
+### DISTILLING
+| Paper | 核心思想 | 备注 |
+| --- | --- |--- |
+|[TINYBERT](https://arxiv.org/pdf/1909.10351.pdf)|| 2019-Arxiv Huawei Noah’s Ark Lab 刘群|
+|[ALBERT](https://arxiv.org/pdf/1909.11942.pdf)|| 2019-Arxiv Google Zhenzhong Lan|
+
+### Quantization
+| Paper | 核心思想 | 备注 |
+| --- | --- |--- |
+|[Making Neural Nets Work With Low Precision](https://sahnimanas.github.io/post/quantization-in-tflite/)|||
+|[Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/pdf/1712.05877.pdf)|||
+|[TRAINING AND INFERENCE WITH INTEGERS IN DEEP NEURAL NETWORKS](https://arxiv.org/pdf/1802.04680.pdf)||2018-ICLR 清华|
 
  ### Deep Learning System
 #### Course
