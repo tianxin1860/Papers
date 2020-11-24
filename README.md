@@ -39,6 +39,12 @@
 |[cs294 AI-Sys Spring 2019](https://ucbrise.github.io/cs294-ai-sys-sp19/)  | |
 |[CSE 599W: Systems for ML](http://dlsys.cs.washington.edu/schedule)  | |
 
+ ### Infomation Retrieval
+
+| Paper | 核心思想 | 备注 |
+| --- | --- |--- |
+|[APPROXIMATE NEAREST NEIGHBOR NEGATIVE CONTRASTIVE LEARNING FOR DENSE TEXT RETRIEVAL](https://openreview.net/pdf?id=zeFrfgyZln)|语义索引的核心问题在于如何保证训练阶段与应用阶段的负样本分布尽可能接近? 本文通过对 docs 的索引进行高频更新，训练过程中不断挖掘出更 Informative 的负样本解决语义索引的核心问题 | 2021-ICLR Microsoft|
+
 #### Paper
 | Paper | 备注 |
 | --- | --- |
