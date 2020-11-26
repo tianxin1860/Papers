@@ -17,7 +17,7 @@
 |[MASS](https://arxiv.org/abs/1905.02450)| 在 encoder 端 Mask 句中连续片段, 在 decoder 端只输入在 encoder 端被 mask 掉的 token 来训练生成模型, 从而让 BERT 可以用于生成任务| 2019-ICML |
 |[UNILM](https://arxiv.org/abs/1905.03197)| 通过 Mask LM、Uni-directional LM、SeqSeq 联合训练, 来构建统一的语言模型, 同时适合 NLU 任务和 NLG 任务| 2019-arXiv |
 |[Adaptive Attention Span in Transformers](https://arxiv.org/abs/1905.07799)| Todo | 2019-arXiv |
-|[XLNet](https://arxiv.org/pdf/1906.08237.pdf)| Todo | 2019-arXiv |
+|[XLNet](https://arxiv.org/pdf/1906.08237.pdf)| 通过构造适当的 Attention Mask 矩阵来模拟 Permutation LM 任务, 兼顾了 AE 模型(可以获得上下文信息)和 AR 模型(适合 NLG 任务) 的优点| 2019-arXiv |
 |[Evaluation of sentence embeddings in downstream and linguistic probing tasks](https://arxiv.org/pdf/1806.06259.pdf)| 在[SentEval](https://github.com/facebookresearch/SentEval) 5 大类公开数据集上评估了 Word2Vec、Glove、FastText、p-mean、SkipThought、InferSent、ELMo、USE 这些模型产出的 sentence embedding 效果，在英文数据上对 sentence embedding 给出了一个较为扎实的基线, 技术选型时可作为参考 | 2018-arXiv |
 |[Universal Sentence Encoder](https://arxiv.org/pdf/1803.11175.pdf)| 基于 Transformer encoder 为网络基础，采用类似 skip-thought 这样的自监督任务、以及 SNLI 等监督任务为训练目标，产出通用的 Sentence Encoder; 核心论点: 通用性体现在 multi-task pretrain 上(这个pretrain 全是句子级别的任务，没有 token 级别的任务)| 2018-arXiv |
 
@@ -57,6 +57,11 @@
 |[Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/pdf/1712.05877.pdf)|||
 |[TRAINING AND INFERENCE WITH INTEGERS IN DEEP NEURAL NETWORKS](https://arxiv.org/pdf/1802.04680.pdf)||2018-ICLR 清华|
 
+ ### Infomation Retrieval
+| Paper | 核心思想 | 备注 |
+| --- | --- |--- |
+|[APPROXIMATE NEAREST NEIGHBOR NEGATIVE CONTRASTIVE LEARNING FOR DENSE TEXT RETRIEVAL](https://openreview.net/pdf?id=zeFrfgyZln)|语义索引的核心问题在于如何保证训练阶段与应用阶段的负样本分布尽可能接近? 本文通过对 docs 的索引进行高频更新，训练过程中不断挖掘出更 Informative 的负样本解决语义索引的核心问题 | 2021-ICLR Microsoft|
+
  ### Deep Learning System
 #### Course
 | 课程名 | 备注 |
@@ -64,11 +69,6 @@
 |[cs294 AI-Sys Spring 2019](https://ucbrise.github.io/cs294-ai-sys-sp19/)  | |
 |[CSE 599W: Systems for ML](http://dlsys.cs.washington.edu/schedule)  | |
 
- ### Infomation Retrieval
-
-| Paper | 核心思想 | 备注 |
-| --- | --- |--- |
-|[APPROXIMATE NEAREST NEIGHBOR NEGATIVE CONTRASTIVE LEARNING FOR DENSE TEXT RETRIEVAL](https://openreview.net/pdf?id=zeFrfgyZln)|语义索引的核心问题在于如何保证训练阶段与应用阶段的负样本分布尽可能接近? 本文通过对 docs 的索引进行高频更新，训练过程中不断挖掘出更 Informative 的负样本解决语义索引的核心问题 | 2021-ICLR Microsoft|
 
 #### Paper
 | Paper | 备注 |
