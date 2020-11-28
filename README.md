@@ -17,6 +17,7 @@
 |[MASS](https://arxiv.org/abs/1905.02450)| 在 encoder 端 Mask 句中连续片段, 在 decoder 端只输入在 encoder 端被 mask 掉的 token 来训练生成模型, 从而让 BERT 可以用于生成任务| 2019-ICML |
 |[UNILM](https://arxiv.org/abs/1905.03197)| 通过 Mask LM、Uni-directional LM、SeqSeq 联合训练, 来构建统一的语言模型, 同时适合 NLU 任务和 NLG 任务| 2019-arXiv |
 |[UNILM-v2](https://arxiv.org/abs/2002.12804) | 通过 1 次 forward 操作同时训练基于 Mask-Span 的 MLM 和 Uni-directional LM 任务, Block-wise Permutation 策略本质是一种数据增强 | 2020-arXiv |
+|[Info-XLM](https://arxiv.org/pdf/2007.07834.pdf) | 从最大化互信息的视角统一了 MMLM 、TLM 任务的训练目标，同时新提出基于平行语料 Sentence-Level 的互信息建模任务 | 2020-arXiv |
 |[Adaptive Attention Span in Transformers](https://arxiv.org/abs/1905.07799)| Todo | 2019-arXiv |
 |[XLNet](https://arxiv.org/pdf/1906.08237.pdf)| 通过构造适当的 Attention Mask 矩阵来模拟 Permutation LM 任务, 兼顾了 AE 模型(可以获得上下文信息)和 AR 模型(适合 NLG 任务) 的优点| 2019-arXiv |
 |[Evaluation of sentence embeddings in downstream and linguistic probing tasks](https://arxiv.org/pdf/1806.06259.pdf)| 在[SentEval](https://github.com/facebookresearch/SentEval) 5 大类公开数据集上评估了 Word2Vec、Glove、FastText、p-mean、SkipThought、InferSent、ELMo、USE 这些模型产出的 sentence embedding 效果，在英文数据上对 sentence embedding 给出了一个较为扎实的基线, 技术选型时可作为参考 | 2018-arXiv |
